@@ -85,6 +85,7 @@ def run_daily_scan(max_stocks: int = None) -> dict:
                 "target2": r["target2"],
                 "risk_reward": r["risk_reward"],
                 "volume_ratio": r["volume_ratio"],
+                "patterns": ", ".join(r.get("patterns") or []),
                 "reasons": " | ".join(r.get("reasons", [])[:5]),
                 "ema20": r.get("ema20"),
                 "ema50": r.get("ema50"),

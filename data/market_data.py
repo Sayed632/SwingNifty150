@@ -109,6 +109,84 @@ def get_beta(ticker: str, period: str = "1y", use_cache: bool = True) -> Optiona
         return None
 
 
+
+def detect_candlestick_patterns(df: pd.DataFrame) -> List[str]:
+    """
+    Detect common bullish candlestick patterns on the latest 1-3 candles.
+    Returns list of pattern names found.
+    """
+    if df is None or len(df) < 5:
+        return []
+
+    patterns = []
+    o = df["Open"].values
+    h = df["High"].values
+    l = df["Low"].values
+    c = df["Close"].values
+
+    # Latest candle
+    i = -1
+    body = abs(c[i] - o[i])
+    full_range = h[i] - l[i]
+    upper_wick = h[i] - max(o[i], c[i])
+    lower_wick = min(o[i], c[i]) - l[i]
+    is_bullish = c[i] > o[i]
+    is_bearish = c[i] < o[i]
+
+    # Avoid division by zero
+    if full_range <= 0:
+        return []
+
+    # 1. Hammer (small body near high, long lower wick)
+    if lower_wick >= 2 * body and upper_wick <= body * 0.5 and body / full_range < 0.35:
+        patterns.append("Hammer")
+
+    # 2. Inverted Hammer
+    if upper_wick >= 2 * body and lower_wick <= body * 0.5 and body / full_range < 0.35:
+        patterns.append("Inverted Hammer")
+
+    # 3. Bullish Marubozu (almost no wicks, strong bullish body)
+    if is_bullish and upper_wick < body * 0.1 and lower_wick < body * 0.1 and body / full_range > 0.8:
+        patterns.append("Bullish Marubozu")
+
+    # 4. Bullish Engulfing (needs previous candle)
+    if len(df) >= 2:
+        prev_body = abs(c[i-1] - o[i-1])
+        prev_bearish = c[i-1] < o[i-1]
+        if prev_bearish and is_bullish and o[i] <= c[i-1] and c[i] >= o[i-1] and body > prev_body:
+            patterns.append("Bullish Engulfing")
+
+    # 5. Piercing Line
+    if len(df) >= 2:
+        prev_bearish = c[i-1] < o[i-1]
+        mid_prev = (o[i-1] + c[i-1]) / 2
+        if prev_bearish and is_bullish and o[i] < c[i-1] and c[i] > mid_prev and c[i] < o[i-1]:
+            patterns.append("Piercing Line")
+
+    # 6. Morning Star (3-candle)
+    if len(df) >= 3:
+        first_bearish = c[i-2] < o[i-2]
+        first_body = abs(c[i-2] - o[i-2])
+        mid_body = abs(c[i-1] - o[i-1])
+        # Small middle body + third candle closes well into first body
+        if (first_bearish and mid_body < first_body * 0.4 and is_bullish
+                and c[i] > (o[i-2] + c[i-2]) / 2):
+            patterns.append("Morning Star")
+
+    # 7. Three White Soldiers (simplified)
+    if len(df) >= 3:
+        if (c[i] > o[i] and c[i-1] > o[i-1] and c[i-2] > o[i-2]
+                and c[i] > c[i-1] > c[i-2]
+                and o[i] > o[i-1] > o[i-2]):
+            patterns.append("Three White Soldiers")
+
+    # 8. Doji (indecision – useful near support)
+    if body / full_range < 0.1:
+        patterns.append("Doji")
+
+    return patterns
+
+
 def analyze_stock(ticker: str, compute_beta: bool = False) -> Optional[Dict]:
     """
     Full analysis for one stock.
@@ -168,6 +246,18 @@ def analyze_stock(ticker: str, compute_beta: bool = False) -> Optional[Dict]:
         bullish_score += 1
         reasons.append("Volume spike")
 
+    # Candlestick patterns
+    patterns = detect_candlestick_patterns(df)
+    bullish_patterns = [p for p in patterns if p not in ("Doji",)]
+    if bullish_patterns:
+        # Strong patterns get more weight
+        strong = {"Bullish Engulfing", "Morning Star", "Three White Soldiers", "Bullish Marubozu"}
+        pts = 2 if any(p in strong for p in bullish_patterns) else 1
+        bullish_score += pts
+        reasons.append("Pattern: " + ", ".join(bullish_patterns))
+    elif "Doji" in patterns:
+        reasons.append("Pattern: Doji (indecision)")
+
     # Signal
     if bullish_score >= 5:
         signal = "STRONG BUY"
@@ -211,5 +301,6 @@ def analyze_stock(ticker: str, compute_beta: bool = False) -> Optional[Dict]:
         "ema50": round(ema50, 2),
         "ema200": round(ema200, 2),
         "volume_ratio": round(vol / vol_sma, 2) if vol_sma else 1.0,
+        "patterns": patterns,
         "df": df.tail(120),  # keep recent data for charts
     }

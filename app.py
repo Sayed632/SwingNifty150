@@ -189,6 +189,7 @@ if "scan_results" in st.session_state:
                 "Score": r["score"],
                 "RSI": r["rsi"],
                 "Beta": r["beta"] if r["beta"] is not None else "—",
+                "Patterns": ", ".join(r.get("patterns") or []) or "—",
                 "Entry": r["entry"],
                 "Stop Loss": r["stop_loss"],
                 "Target 1": r["target1"],
@@ -269,6 +270,9 @@ if "scan_results" in st.session_state:
             col8.metric("Target 2", f"₹{detail['target2']}")
 
             st.markdown(f"**Reasons:** {', '.join(detail['reasons'])}")
+            pats = detail.get("patterns") or []
+            if pats:
+                st.markdown(f"**Candlestick Patterns:** {', '.join(pats)}")
 
             # Position Calculator
             st.markdown("#### 📐 Position Size Calculator")
