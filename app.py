@@ -62,6 +62,7 @@ default_capital = st.sidebar.number_input("Trading Capital (₹)", value=200000,
 default_risk = st.sidebar.slider("Risk per trade (%)", 0.5, 3.0, 1.0, 0.1)
 
 st.sidebar.markdown("---")
+st.sidebar.caption("Full scan (~250 stocks) takes 40-70 seconds")
 run_scan = st.sidebar.button("🚀 Run Scan", type="primary", use_container_width=True)
 
 # -------------------- Header --------------------
@@ -78,16 +79,16 @@ def load_universe():
 
 
 @st.cache_data(ttl=900, show_spinner=False)
-def analyze_batch(tickers: tuple):
+def analyze_batch(tickers: tuple, compute_beta: bool = False):
     results = []
     for t in tickers:
         try:
-            res = analyze_stock(t)
+            res = analyze_stock(t, compute_beta=compute_beta)
             if res:
                 results.append(res)
         except Exception:
             continue
-        time.sleep(0.15)  # be gentle
+        time.sleep(0.08)
     return results
 
 

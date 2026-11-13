@@ -70,34 +70,46 @@ def compute_indicators(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def get_beta(ticker: str, period: str = "1y") -> Optional[float]:
-    """Simple beta vs Nifty 50 using yfinance."""
+_beta_cache: Dict[str, Optional[float]] = {}
+
+
+def get_beta(ticker: str, period: str = "1y", use_cache: bool = True) -> Optional[float]:
+    """Simple beta vs Nifty 50 using yfinance. Session-cached."""
+    key = ticker.replace(".NS", "").upper()
+    if use_cache and key in _beta_cache:
+        return _beta_cache[key]
     try:
-        stock = yf.Ticker(f"{ticker}.NS" if not ticker.endswith(".NS") else ticker)
+        stock = yf.Ticker(f"{key}.NS")
         hist = stock.history(period=period)
         nifty = yf.Ticker("^NSEI").history(period=period)
         if hist.empty or nifty.empty:
+            _beta_cache[key] = None
             return None
-        # Align
         common = hist.index.intersection(nifty.index)
-        if len(common) < 30:
+        if len(common) < 40:
+            _beta_cache[key] = None
             return None
         stock_ret = hist.loc[common, "Close"].pct_change().dropna()
         nifty_ret = nifty.loc[common, "Close"].pct_change().dropna()
         aligned = pd.concat([stock_ret, nifty_ret], axis=1).dropna()
         aligned.columns = ["stock", "nifty"]
-        if len(aligned) < 30:
+        if len(aligned) < 40:
+            _beta_cache[key] = None
             return None
         cov = np.cov(aligned["stock"], aligned["nifty"])[0, 1]
         var = np.var(aligned["nifty"])
         if var == 0:
+            _beta_cache[key] = None
             return None
-        return round(float(cov / var), 2)
+        beta = round(float(cov / var), 2)
+        _beta_cache[key] = beta
+        return beta
     except Exception:
+        _beta_cache[key] = None
         return None
 
 
-def analyze_stock(ticker: str) -> Optional[Dict]:
+def analyze_stock(ticker: str, compute_beta: bool = False) -> Optional[Dict]:
     """
     Full analysis for one stock.
     Returns dict with price, indicators, signal, entry/sl/targets, beta etc.
@@ -177,7 +189,7 @@ def analyze_stock(ticker: str) -> Optional[Dict]:
     target2 = round(close + 3.0 * atr, 2)
     risk_reward = round((target1 - entry) / (entry - stop_loss), 2) if entry > stop_loss else 0
 
-    beta = get_beta(ticker)
+    beta = get_beta(ticker) if compute_beta else None
 
     return {
         "ticker": ticker.replace(".NS", ""),
