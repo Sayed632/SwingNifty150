@@ -298,6 +298,13 @@ if "scan_results" in st.session_state:
             # Candlestick Chart
             st.markdown("#### 📊 Daily Chart with Indicators")
             chart_df = detail.get("df")
+            # Cache does not store full OHLCV — fetch live when missing
+            if chart_df is None or (hasattr(chart_df, "empty") and chart_df.empty):
+                with st.spinner("Loading chart data..."):
+                    from data.market_data import fetch_ohlcv, compute_indicators
+                    raw = fetch_ohlcv(selected, period="1y")
+                    if raw is not None and not raw.empty:
+                        chart_df = compute_indicators(raw).tail(120)
             if chart_df is not None and not chart_df.empty:
                 fig = make_subplots(
                     rows=3,
@@ -386,6 +393,8 @@ if "scan_results" in st.session_state:
                     margin=dict(l=20, r=20, t=40, b=20),
                 )
                 st.plotly_chart(fig, use_container_width=True)
+            else:
+                st.warning("Chart data could not be loaded for this stock. Try again in a moment.")
 
 else:
     st.info("👈 Adjust filters in the sidebar and click **Run Scan** to start.")
