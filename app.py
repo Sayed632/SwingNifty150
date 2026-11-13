@@ -238,7 +238,7 @@ if "scan_results" in st.session_state:
         return ""
 
     st.dataframe(
-        df.style.applymap(color_signal, subset=["Signal"]),
+        df.style.map(color_signal, subset=["Signal"]),
         use_container_width=True,
         height=480,
     )
