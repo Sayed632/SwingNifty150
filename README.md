@@ -56,3 +56,21 @@ It is **not** investment advice. Always do your own due diligence and risk manag
 ## License
 
 MIT
+
+## Daily Pre-computation (GitHub Actions)
+
+A scheduled workflow runs every weekday at **~4:15 PM IST** (after market close):
+
+- Scans the full Nifty 100 + Midcap universe
+- Saves results to `data/cache/latest_scan.json`
+- Commits the cache back to the repo
+
+The Streamlit app loads this cache by default → **instant results**.
+
+### Manual trigger
+1. Go to the repo **Actions** tab
+2. Select **Daily Swing Scan**
+3. Click **Run workflow**
+
+### Force live scan
+In the app sidebar, check **Force live scan** if you want fresh data outside the daily window.

@@ -8,7 +8,9 @@ import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import time
+import json
 from datetime import datetime
+from pathlib import Path
 import pytz
 
 from data.tickertape import get_nifty100_and_midcap150, get_index_constituents
@@ -62,8 +64,11 @@ default_capital = st.sidebar.number_input("Trading Capital (₹)", value=200000,
 default_risk = st.sidebar.slider("Risk per trade (%)", 0.5, 3.0, 1.0, 0.1)
 
 st.sidebar.markdown("---")
-st.sidebar.caption("Full scan (~250 stocks) takes 40-70 seconds")
-run_scan = st.sidebar.button("🚀 Run Scan", type="primary", use_container_width=True)
+st.sidebar.subheader("📡 Data Source")
+use_cache = st.sidebar.checkbox("Use daily pre-computed cache (fast)", value=True)
+force_live = st.sidebar.checkbox("Force live scan (slow, 40-70s)", value=False)
+st.sidebar.caption("Cache is refreshed every weekday ~4:15 PM IST via GitHub Actions")
+run_scan = st.sidebar.button("🚀 Load / Refresh", type="primary", use_container_width=True)
 
 # -------------------- Header --------------------
 st.title("📈 SwingNifty150")
@@ -92,41 +97,76 @@ def analyze_batch(tickers: tuple, compute_beta: bool = False):
     return results
 
 
+# -------------------- Cache loader --------------------
+@st.cache_data(ttl=300, show_spinner=False)
+def load_cached_scan():
+    """Load pre-computed results from data/cache/latest_scan.json"""
+    cache_path = Path(__file__).parent / "data" / "cache" / "latest_scan.json"
+    if not cache_path.exists():
+        return None
+    try:
+        with open(cache_path) as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
 # -------------------- Main Logic --------------------
-if run_scan or "scan_results" in st.session_state:
+if run_scan or "scan_results" not in st.session_state:
 
-    with st.spinner("Loading universe from Tickertape..."):
-        universe_df = load_universe()
+    cache_data = load_cached_scan() if use_cache and not force_live else None
 
-    if universe_df.empty:
-        st.error("Could not fetch constituents from Tickertape. Try again later.")
-        st.stop()
+    if cache_data and cache_data.get("results"):
+        # Instant path — use daily cache
+        all_results = cache_data["results"]
+        st.session_state["scan_results"] = all_results
+        st.session_state["cache_meta"] = {
+            "generated_at_ist": cache_data.get("generated_at_ist"),
+            "results_count": cache_data.get("results_count"),
+            "universe_size": cache_data.get("universe_size"),
+        }
+        st.success(
+            f"Loaded **{len(all_results)}** pre-computed signals "
+            f"(generated {cache_data.get('generated_at_ist', 'N/A')})"
+        )
+    else:
+        # Live scan path
+        if force_live:
+            st.info("Running live scan (this takes 40–70 seconds)...")
+        else:
+            st.warning("No cache found. Running live scan...")
 
-    # Filter by selected universes
-    if universe_choice:
-        universe_df = universe_df[universe_df["universe"].isin(universe_choice)]
+        with st.spinner("Loading universe..."):
+            universe_df = load_universe()
 
-    tickers = universe_df["ticker"].dropna().unique().tolist()
-    st.info(f"Universe size after filters: **{len(tickers)}** stocks")
+        if universe_df.empty:
+            st.error("Could not fetch universe. Try again later.")
+            st.stop()
 
-    progress = st.progress(0, text="Scanning stocks...")
-    status = st.empty()
+        if universe_choice:
+            universe_df = universe_df[universe_df["universe"].isin(universe_choice)]
 
-    # Analyze in chunks to keep UI responsive
-    all_results = []
-    chunk_size = 15
-    for i in range(0, len(tickers), chunk_size):
-        chunk = tickers[i : i + chunk_size]
-        status.text(f"Analyzing {i+1} – {min(i+chunk_size, len(tickers))} of {len(tickers)}...")
-        chunk_res = analyze_batch(tuple(chunk))
-        all_results.extend(chunk_res)
-        progress.progress(min((i + chunk_size) / len(tickers), 1.0))
+        tickers = universe_df["ticker"].dropna().unique().tolist()
+        st.info(f"Universe size: **{len(tickers)}** stocks")
 
-    progress.empty()
-    status.empty()
+        progress = st.progress(0, text="Scanning stocks...")
+        status = st.empty()
 
-    st.session_state["scan_results"] = all_results
-    st.session_state["universe_df"] = universe_df
+        all_results = []
+        chunk_size = 15
+        for i in range(0, len(tickers), chunk_size):
+            chunk = tickers[i : i + chunk_size]
+            status.text(f"Analyzing {i+1} – {min(i+chunk_size, len(tickers))} of {len(tickers)}...")
+            chunk_res = analyze_batch(tuple(chunk), compute_beta=False)
+            all_results.extend(chunk_res)
+            progress.progress(min((i + chunk_size) / len(tickers), 1.0))
+
+        progress.empty()
+        status.empty()
+
+        st.session_state["scan_results"] = all_results
+        st.session_state["universe_df"] = universe_df
+        st.session_state["cache_meta"] = None
 
 # -------------------- Display Results --------------------
 if "scan_results" in st.session_state:
@@ -182,6 +222,9 @@ if "scan_results" in st.session_state:
 
     df = df.sort_values(["Score", "R:R"], ascending=[False, False]).reset_index(drop=True)
 
+    meta = st.session_state.get("cache_meta")
+    if meta and meta.get("generated_at_ist"):
+        st.caption(f"📦 Data from daily cache • Generated {meta['generated_at_ist']}")
     st.success(f"Found **{len(df)}** stocks matching your filters")
 
     # Color signal
