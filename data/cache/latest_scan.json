@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T23:36:19.839000+05:30",
-  "generated_at_ist": "2026-11-13 23:36 IST",
+  "generated_at": "2026-11-17T02:12:27.993699+05:30",
+  "generated_at_ist": "2026-11-17 02:12 IST",
   "universe_size": 248,
   "results_count": 243,
   "failed_count": 5,
-  "elapsed_seconds": 127.2,
+  "elapsed_seconds": 98.4,
   "results": [
     {
       "ticker": "ABB",
@@ -21,7 +21,7 @@
       "rsi": 58.4,
       "macd": 8.274,
       "atr": 226.88,
-      "beta": 0.93,
+      "beta": 0.92,
       "entry": 7054.5,
       "stop_loss": 6714.18,
       "target1": 7508.25,
@@ -29,7 +29,7 @@
       "risk_reward": 1.33,
       "ema20": 6774.92,
       "ema50": 6889.48,
-      "ema200": 6633.09,
+      "ema200": 6643.86,
       "volume_ratio": 1.57,
       "patterns": []
     },
@@ -54,7 +54,7 @@
       "risk_reward": 1.33,
       "ema20": 2678.72,
       "ema50": 2755.37,
-      "ema200": 2700.47,
+      "ema200": 2704.7,
       "volume_ratio": 0.73,
       "patterns": []
     },
@@ -81,7 +81,7 @@
       "risk_reward": 1.33,
       "ema20": 1352.83,
       "ema50": 1329.07,
-      "ema200": 1269.22,
+      "ema200": 1270.23,
       "volume_ratio": 1.41,
       "patterns": []
     },
@@ -107,7 +107,7 @@
       "risk_reward": 1.33,
       "ema20": 1852.61,
       "ema50": 1801.0,
-      "ema200": 1697.87,
+      "ema200": 1698.59,
       "volume_ratio": 0.68,
       "patterns": []
     },
@@ -125,7 +125,7 @@
       "rsi": 59.5,
       "macd": 2.79,
       "atr": 5.57,
-      "beta": 1.03,
+      "beta": 1.04,
       "entry": 205.67,
       "stop_loss": 197.32,
       "target1": 216.81,
@@ -133,7 +133,7 @@
       "risk_reward": 1.33,
       "ema20": 198.98,
       "ema50": 199.69,
-      "ema200": 193.96,
+      "ema200": 194.08,
       "volume_ratio": 0.66,
       "patterns": []
     },
@@ -160,7 +160,7 @@
       "risk_reward": 1.33,
       "ema20": 1384.81,
       "ema50": 1391.95,
-      "ema200": 1344.59,
+      "ema200": 1344.6,
       "volume_ratio": 0.83,
       "patterns": [
         "Morning Star"
@@ -187,7 +187,7 @@
       "risk_reward": 1.33,
       "ema20": 373.68,
       "ema50": 378.6,
-      "ema200": 427.95,
+      "ema200": 428.03,
       "volume_ratio": 0.46,
       "patterns": []
     },
@@ -214,7 +214,7 @@
       "risk_reward": 1.33,
       "ema20": 8322.51,
       "ema50": 8353.24,
-      "ema200": 8196.75,
+      "ema200": 8200.77,
       "volume_ratio": 1.08,
       "patterns": [
         "Doji"
@@ -243,7 +243,7 @@
       "risk_reward": 1.33,
       "ema20": 2435.21,
       "ema50": 2443.62,
-      "ema200": 2544.37,
+      "ema200": 2545.06,
       "volume_ratio": 0.57,
       "patterns": [
         "Piercing Line"
@@ -270,8 +270,8 @@
       "target2": 1417.66,
       "risk_reward": 1.33,
       "ema20": 1272.22,
-      "ema50": 1257.36,
-      "ema200": 1265.62,
+      "ema50": 1257.37,
+      "ema200": 1267.69,
       "volume_ratio": 0.61,
       "patterns": []
     },
@@ -297,19 +297,18 @@
       "risk_reward": 1.33,
       "ema20": 10641.41,
       "ema50": 10730.08,
-      "ema200": 10360.4,
+      "ema200": 10366.99,
       "volume_ratio": 0.74,
       "patterns": []
     },
     {
       "ticker": "BAJAJFINSV",
       "price": 1865.0,
-      "signal": "BUY",
-      "confidence": "Medium",
-      "score": 3,
+      "signal": "WATCH",
+      "confidence": "Low",
+      "score": 2,
       "reasons": [
         "Price > EMA20",
-        "Above EMA200",
         "MACD bullish"
       ],
       "rsi": 63.9,
@@ -323,7 +322,7 @@
       "risk_reward": 1.33,
       "ema20": 1779.18,
       "ema50": 1795.51,
-      "ema200": 1863.92,
+      "ema200": 1865.91,
       "volume_ratio": 0.38,
       "patterns": []
     },
@@ -342,15 +341,15 @@
       "rsi": 54.7,
       "macd": 45.069,
       "atr": 313.16,
-      "beta": 1.17,
+      "beta": 1.18,
       "entry": 11096.0,
       "stop_loss": 10626.26,
       "target1": 11722.32,
       "target2": 12035.47,
       "risk_reward": 1.33,
       "ema20": 10882.55,
-      "ema50": 10889.39,
-      "ema200": 10811.03,
+      "ema50": 10889.4,
+      "ema200": 10822.54,
       "volume_ratio": 0.35,
       "patterns": []
     },
@@ -376,7 +375,7 @@
       "risk_reward": 1.33,
       "ema20": 1018.29,
       "ema50": 1006.38,
-      "ema200": 993.69,
+      "ema200": 995.5,
       "volume_ratio": 1.16,
       "patterns": []
     },
@@ -402,7 +401,7 @@
       "risk_reward": 1.33,
       "ema20": 250.23,
       "ema50": 243.86,
-      "ema200": 254.27,
+      "ema200": 254.65,
       "volume_ratio": 0.67,
       "patterns": []
     },
@@ -427,7 +426,7 @@
       "risk_reward": 1.33,
       "ema20": 386.96,
       "ema50": 388.32,
-      "ema200": 404.66,
+      "ema200": 405.05,
       "volume_ratio": 0.69,
       "patterns": []
     },
@@ -453,7 +452,7 @@
       "risk_reward": 1.33,
       "ema20": 2003.31,
       "ema50": 1932.02,
-      "ema200": 1911.26,
+      "ema200": 1912.97,
       "volume_ratio": 0.57,
       "patterns": []
     },
@@ -478,8 +477,8 @@
       "target2": 53390.78,
       "risk_reward": 1.33,
       "ema20": 48428.65,
-      "ema50": 46992.46,
-      "ema200": 42265.94,
+      "ema50": 46992.47,
+      "ema200": 42271.82,
       "volume_ratio": 1.07,
       "patterns": []
     },
@@ -504,7 +503,7 @@
       "risk_reward": 1.33,
       "ema20": 302.33,
       "ema50": 302.28,
-      "ema200": 315.45,
+      "ema200": 315.4,
       "volume_ratio": 0.71,
       "patterns": []
     },
@@ -528,7 +527,7 @@
       "risk_reward": 1.33,
       "ema20": 4779.62,
       "ema50": 4879.82,
-      "ema200": 5241.75,
+      "ema200": 5240.02,
       "volume_ratio": 0.61,
       "patterns": []
     },
@@ -554,8 +553,8 @@
       "target2": 4261.11,
       "risk_reward": 1.33,
       "ema20": 3621.98,
-      "ema50": 3488.1,
-      "ema200": 3371.07,
+      "ema50": 3488.11,
+      "ema200": 3375.42,
       "volume_ratio": 0.79,
       "patterns": [
         "Bullish Engulfing"
@@ -584,7 +583,7 @@
       "risk_reward": 1.33,
       "ema20": 1186.14,
       "ema50": 1164.36,
-      "ema200": 1078.59,
+      "ema200": 1077.79,
       "volume_ratio": 0.48,
       "patterns": []
     },
@@ -610,7 +609,7 @@
       "risk_reward": 1.33,
       "ema20": 123.58,
       "ema50": 123.08,
-      "ema200": 128.76,
+      "ema200": 129.23,
       "volume_ratio": 0.84,
       "patterns": []
     },
@@ -635,7 +634,7 @@
       "risk_reward": 1.33,
       "ema20": 825.93,
       "ema50": 847.55,
-      "ema200": 829.96,
+      "ema200": 830.35,
       "volume_ratio": 0.87,
       "patterns": []
     },
@@ -662,7 +661,7 @@
       "risk_reward": 1.33,
       "ema20": 1693.42,
       "ema50": 1686.84,
-      "ema200": 1693.9,
+      "ema200": 1692.97,
       "volume_ratio": 1.0,
       "patterns": [
         "Hammer"
@@ -673,10 +672,9 @@
       "price": 1391.8,
       "signal": "BUY",
       "confidence": "Medium",
-      "score": 4,
+      "score": 3,
       "reasons": [
         "Price > EMA20 > EMA50",
-        "Above EMA200",
         "MACD bullish"
       ],
       "rsi": 55.4,
@@ -690,7 +688,7 @@
       "risk_reward": 1.33,
       "ema20": 1380.94,
       "ema50": 1376.97,
-      "ema200": 1391.39,
+      "ema200": 1392.21,
       "volume_ratio": 0.7,
       "patterns": []
     },
@@ -717,7 +715,7 @@
       "risk_reward": 1.33,
       "ema20": 398.74,
       "ema50": 400.67,
-      "ema200": 402.91,
+      "ema200": 403.28,
       "volume_ratio": 0.6,
       "patterns": []
     },
@@ -742,7 +740,7 @@
       "risk_reward": 1.33,
       "ema20": 4439.95,
       "ema50": 4696.99,
-      "ema200": 4904.12,
+      "ema200": 4905.46,
       "volume_ratio": 1.14,
       "patterns": [
         "Three White Soldiers"
@@ -770,7 +768,7 @@
       "risk_reward": 1.33,
       "ema20": 10247.32,
       "ema50": 9586.31,
-      "ema200": 8031.42,
+      "ema200": 8025.11,
       "volume_ratio": 0.63,
       "patterns": []
     },
@@ -796,7 +794,7 @@
       "risk_reward": 1.33,
       "ema20": 713.68,
       "ema50": 686.5,
-      "ema200": 658.45,
+      "ema200": 658.76,
       "volume_ratio": 1.01,
       "patterns": []
     },
@@ -814,7 +812,7 @@
       "rsi": 52.5,
       "macd": -21.25,
       "atr": 69.61,
-      "beta": 0.49,
+      "beta": 0.5,
       "entry": 3439.3,
       "stop_loss": 3334.89,
       "target1": 3578.52,
@@ -822,7 +820,7 @@
       "risk_reward": 1.33,
       "ema20": 3390.39,
       "ema50": 3522.53,
-      "ema200": 3841.04,
+      "ema200": 3838.8,
       "volume_ratio": 0.27,
       "patterns": [
         "Doji"
@@ -851,7 +849,7 @@
       "risk_reward": 1.33,
       "ema20": 1329.6,
       "ema50": 1273.23,
-      "ema200": 1244.4,
+      "ema200": 1245.2,
       "volume_ratio": 0.61,
       "patterns": [
         "Doji"
@@ -880,7 +878,7 @@
       "risk_reward": 1.33,
       "ema20": 7418.37,
       "ema50": 7406.01,
-      "ema200": 7340.94,
+      "ema200": 7336.34,
       "volume_ratio": 1.12,
       "patterns": [
         "Bullish Engulfing"
@@ -908,7 +906,7 @@
       "risk_reward": 1.33,
       "ema20": 178.82,
       "ema50": 174.62,
-      "ema200": 170.37,
+      "ema200": 170.5,
       "volume_ratio": 0.81,
       "patterns": []
     },
@@ -925,7 +923,7 @@
       "rsi": 56.3,
       "macd": 1.54,
       "atr": 22.83,
-      "beta": 0.8,
+      "beta": 0.79,
       "entry": 870.75,
       "stop_loss": 836.5,
       "target1": 916.41,
@@ -933,7 +931,7 @@
       "risk_reward": 1.33,
       "ema20": 852.28,
       "ema50": 870.85,
-      "ema200": 974.94,
+      "ema200": 976.51,
       "volume_ratio": 0.59,
       "patterns": []
     },
@@ -960,7 +958,7 @@
       "risk_reward": 1.33,
       "ema20": 3059.43,
       "ema50": 3069.63,
-      "ema200": 3017.01,
+      "ema200": 3018.07,
       "volume_ratio": 2.35,
       "patterns": []
     },
@@ -986,7 +984,7 @@
       "risk_reward": 1.33,
       "ema20": 4891.61,
       "ema50": 4837.34,
-      "ema200": 4622.55,
+      "ema200": 4626.31,
       "volume_ratio": 0.99,
       "patterns": []
     },
@@ -1013,7 +1011,7 @@
       "risk_reward": 1.33,
       "ema20": 1384.77,
       "ema50": 1335.48,
-      "ema200": 1319.47,
+      "ema200": 1320.12,
       "volume_ratio": 0.56,
       "patterns": [
         "Doji"
@@ -1041,7 +1039,7 @@
       "risk_reward": 1.33,
       "ema20": 2496.47,
       "ema50": 2452.08,
-      "ema200": 2524.71,
+      "ema200": 2523.1,
       "volume_ratio": 1.05,
       "patterns": []
     },
@@ -1067,7 +1065,7 @@
       "risk_reward": 1.33,
       "ema20": 747.52,
       "ema50": 732.53,
-      "ema200": 780.72,
+      "ema200": 781.55,
       "volume_ratio": 0.6,
       "patterns": []
     },
@@ -1092,7 +1090,7 @@
       "risk_reward": 1.33,
       "ema20": 551.17,
       "ema50": 545.84,
-      "ema200": 594.24,
+      "ema200": 593.23,
       "volume_ratio": 1.14,
       "patterns": []
     },
@@ -1119,7 +1117,7 @@
       "risk_reward": 1.33,
       "ema20": 929.76,
       "ema50": 942.44,
-      "ema200": 953.23,
+      "ema200": 952.83,
       "volume_ratio": 1.51,
       "patterns": []
     },
@@ -1145,7 +1143,7 @@
       "risk_reward": 1.33,
       "ema20": 1918.01,
       "ema50": 1920.19,
-      "ema200": 2065.97,
+      "ema200": 2067.41,
       "volume_ratio": 0.8,
       "patterns": [
         "Piercing Line"
@@ -1165,7 +1163,7 @@
       "rsi": 52.9,
       "macd": 4.594,
       "atr": 16.68,
-      "beta": 1.1,
+      "beta": 1.11,
       "entry": 554.85,
       "stop_loss": 529.83,
       "target1": 588.2,
@@ -1173,7 +1171,7 @@
       "risk_reward": 1.33,
       "ema20": 547.13,
       "ema50": 552.18,
-      "ema200": 558.44,
+      "ema200": 557.5,
       "volume_ratio": 0.4,
       "patterns": []
     },
@@ -1199,7 +1197,7 @@
       "risk_reward": 1.33,
       "ema20": 1469.62,
       "ema50": 1419.74,
-      "ema200": 1374.79,
+      "ema200": 1374.22,
       "volume_ratio": 0.64,
       "patterns": []
     },
@@ -1223,7 +1221,7 @@
       "risk_reward": 1.33,
       "ema20": 12.57,
       "ema50": 12.94,
-      "ema200": 12.61,
+      "ema200": 12.65,
       "volume_ratio": 1.24,
       "patterns": []
     },
@@ -1249,7 +1247,7 @@
       "risk_reward": 1.33,
       "ema20": 5154.09,
       "ema50": 5028.59,
-      "ema200": 5018.78,
+      "ema200": 5016.0,
       "volume_ratio": 0.99,
       "patterns": []
     },
@@ -1273,7 +1271,7 @@
       "risk_reward": 1.33,
       "ema20": 1126.83,
       "ema50": 1096.48,
-      "ema200": 1164.77,
+      "ema200": 1162.0,
       "volume_ratio": 0.39,
       "patterns": []
     },
@@ -1299,7 +1297,7 @@
       "risk_reward": 1.33,
       "ema20": 138.68,
       "ema50": 136.24,
-      "ema200": 142.3,
+      "ema200": 142.35,
       "volume_ratio": 0.44,
       "patterns": []
     },
@@ -1324,7 +1322,7 @@
       "risk_reward": 1.33,
       "ema20": 273.22,
       "ema50": 270.12,
-      "ema200": 291.69,
+      "ema200": 291.81,
       "volume_ratio": 0.42,
       "patterns": []
     },
@@ -1350,7 +1348,7 @@
       "risk_reward": 1.33,
       "ema20": 1111.61,
       "ema50": 1101.87,
-      "ema200": 1114.27,
+      "ema200": 1113.61,
       "volume_ratio": 0.29,
       "patterns": []
     },
@@ -1376,7 +1374,7 @@
       "risk_reward": 1.33,
       "ema20": 1299.89,
       "ema50": 1276.45,
-      "ema200": 1247.54,
+      "ema200": 1246.84,
       "volume_ratio": 0.7,
       "patterns": []
     },
@@ -1403,8 +1401,8 @@
       "risk_reward": 1.33,
       "ema20": 462.11,
       "ema50": 440.64,
-      "ema200": 413.5,
-      "volume_ratio": 0.49,
+      "ema200": 413.97,
+      "volume_ratio": 0.5,
       "patterns": [
         "Hammer"
       ]
@@ -1432,7 +1430,7 @@
       "risk_reward": 1.33,
       "ema20": 3952.33,
       "ema50": 3890.27,
-      "ema200": 3921.31,
+      "ema200": 3923.44,
       "volume_ratio": 0.64,
       "patterns": [
         "Doji"
@@ -1460,7 +1458,7 @@
       "risk_reward": 1.33,
       "ema20": 4225.5,
       "ema50": 4217.89,
-      "ema200": 4467.62,
+      "ema200": 4467.78,
       "volume_ratio": 0.36,
       "patterns": []
     },
@@ -1486,7 +1484,7 @@
       "risk_reward": 1.33,
       "ema20": 3091.27,
       "ema50": 3056.4,
-      "ema200": 3193.49,
+      "ema200": 3196.48,
       "volume_ratio": 0.65,
       "patterns": []
     },
@@ -1510,8 +1508,8 @@
       "target2": 13708.97,
       "risk_reward": 1.33,
       "ema20": 12191.96,
-      "ema50": 12213.17,
-      "ema200": 13249.37,
+      "ema50": 12213.18,
+      "ema200": 13260.34,
       "volume_ratio": 0.88,
       "patterns": []
     },
@@ -1537,7 +1535,7 @@
       "risk_reward": 1.33,
       "ema20": 905.31,
       "ema50": 931.59,
-      "ema200": 1003.42,
+      "ema200": 1005.43,
       "volume_ratio": 0.4,
       "patterns": [
         "Three White Soldiers",
@@ -1567,7 +1565,7 @@
       "risk_reward": 1.33,
       "ema20": 161.36,
       "ema50": 159.82,
-      "ema200": 145.01,
+      "ema200": 145.09,
       "volume_ratio": 0.48,
       "patterns": []
     },
@@ -1584,15 +1582,15 @@
       "rsi": 60.1,
       "macd": 59.518,
       "atr": 94.68,
-      "beta": 1.38,
+      "beta": 1.37,
       "entry": 2840.0,
       "stop_loss": 2697.97,
       "target1": 3029.37,
       "target2": 3124.05,
       "risk_reward": 1.33,
       "ema20": 2702.04,
-      "ema50": 2728.88,
-      "ema200": 3038.96,
+      "ema50": 2728.9,
+      "ema200": 3069.81,
       "volume_ratio": 0.91,
       "patterns": []
     },
@@ -1617,7 +1615,7 @@
       "risk_reward": 1.33,
       "ema20": 1257.34,
       "ema50": 1303.04,
-      "ema200": 1344.34,
+      "ema200": 1343.93,
       "volume_ratio": 0.42,
       "patterns": []
     },
@@ -1643,7 +1641,7 @@
       "risk_reward": 1.33,
       "ema20": 316.2,
       "ema50": 318.71,
-      "ema200": 334.52,
+      "ema200": 334.78,
       "volume_ratio": 0.51,
       "patterns": []
     },
@@ -1670,7 +1668,7 @@
       "risk_reward": 1.33,
       "ema20": 222.48,
       "ema50": 223.4,
-      "ema200": 234.75,
+      "ema200": 235.0,
       "volume_ratio": 0.7,
       "patterns": [
         "Inverted Hammer"
@@ -1698,7 +1696,7 @@
       "risk_reward": 1.33,
       "ema20": 329.94,
       "ema50": 338.93,
-      "ema200": 369.58,
+      "ema200": 369.86,
       "volume_ratio": 0.73,
       "patterns": []
     },
@@ -1725,7 +1723,7 @@
       "risk_reward": 1.33,
       "ema20": 1520.89,
       "ema50": 1528.39,
-      "ema200": 1516.43,
+      "ema200": 1515.95,
       "volume_ratio": 0.93,
       "patterns": []
     },
@@ -1753,7 +1751,7 @@
       "risk_reward": 1.33,
       "ema20": 127.13,
       "ema50": 121.17,
-      "ema200": 115.2,
+      "ema200": 115.36,
       "volume_ratio": 1.89,
       "patterns": [
         "Inverted Hammer",
@@ -1780,7 +1778,7 @@
       "risk_reward": 1.33,
       "ema20": 7931.49,
       "ema50": 8169.96,
-      "ema200": 8370.96,
+      "ema200": 8367.81,
       "volume_ratio": 1.21,
       "patterns": []
     },
@@ -1806,7 +1804,7 @@
       "risk_reward": 1.33,
       "ema20": 256.33,
       "ema50": 258.06,
-      "ema200": 269.5,
+      "ema200": 269.8,
       "volume_ratio": 0.46,
       "patterns": []
     },
@@ -1832,7 +1830,7 @@
       "risk_reward": 1.33,
       "ema20": 28886.23,
       "ema50": 29902.67,
-      "ema200": 29393.3,
+      "ema200": 29398.3,
       "volume_ratio": 4.57,
       "patterns": []
     },
@@ -1858,7 +1856,7 @@
       "risk_reward": 1.33,
       "ema20": 1270.76,
       "ema50": 1254.43,
-      "ema200": 1319.51,
+      "ema200": 1320.13,
       "volume_ratio": 0.63,
       "patterns": []
     },
@@ -1883,8 +1881,8 @@
       "risk_reward": 1.33,
       "ema20": 1721.12,
       "ema50": 1722.42,
-      "ema200": 1813.92,
-      "volume_ratio": 0.31,
+      "ema200": 1814.6,
+      "volume_ratio": 0.4,
       "patterns": []
     },
     {
@@ -1909,8 +1907,8 @@
       "risk_reward": 1.33,
       "ema20": 1006.75,
       "ema50": 997.21,
-      "ema200": 1006.84,
-      "volume_ratio": 1.1,
+      "ema200": 1008.46,
+      "volume_ratio": 1.11,
       "patterns": []
     },
     {
@@ -1927,15 +1925,15 @@
       "rsi": 55.4,
       "macd": -11.068,
       "atr": 122.11,
-      "beta": 1.05,
+      "beta": 1.04,
       "entry": 3660.0,
       "stop_loss": 3476.83,
       "target1": 3904.23,
       "target2": 4026.34,
       "risk_reward": 1.33,
       "ema20": 3553.74,
-      "ema50": 3635.47,
-      "ema200": 3568.05,
+      "ema50": 3635.48,
+      "ema200": 3582.33,
       "volume_ratio": 1.15,
       "patterns": [
         "Doji"
@@ -1962,8 +1960,8 @@
       "target2": 21287.76,
       "risk_reward": 1.33,
       "ema20": 19244.0,
-      "ema50": 19402.25,
-      "ema200": 17696.59,
+      "ema50": 19402.26,
+      "ema200": 17709.5,
       "volume_ratio": 0.67,
       "patterns": []
     },
@@ -1989,7 +1987,7 @@
       "risk_reward": 1.33,
       "ema20": 928.94,
       "ema50": 950.94,
-      "ema200": 965.28,
+      "ema200": 965.62,
       "volume_ratio": 1.02,
       "patterns": []
     },
@@ -2015,7 +2013,7 @@
       "risk_reward": 1.33,
       "ema20": 1820.95,
       "ema50": 1825.16,
-      "ema200": 1819.12,
+      "ema200": 1821.35,
       "volume_ratio": 0.88,
       "patterns": []
     },
@@ -2041,7 +2039,7 @@
       "risk_reward": 1.33,
       "ema20": 1039.96,
       "ema50": 1024.46,
-      "ema200": 1072.76,
+      "ema200": 1074.8,
       "volume_ratio": 0.38,
       "patterns": []
     },
@@ -2059,7 +2057,7 @@
       "rsi": 52.5,
       "macd": 1.701,
       "atr": 7.74,
-      "beta": 1.39,
+      "beta": 1.4,
       "entry": 287.4,
       "stop_loss": 275.78,
       "target1": 302.89,
@@ -2067,7 +2065,7 @@
       "risk_reward": 1.33,
       "ema20": 284.02,
       "ema50": 291.43,
-      "ema200": 326.85,
+      "ema200": 324.72,
       "volume_ratio": 1.17,
       "patterns": []
     },
@@ -2085,7 +2083,7 @@
       "rsi": 45.6,
       "macd": 0.436,
       "atr": 9.47,
-      "beta": 0.69,
+      "beta": 0.68,
       "entry": 348.0,
       "stop_loss": 333.79,
       "target1": 366.94,
@@ -2093,7 +2091,7 @@
       "risk_reward": 1.33,
       "ema20": 353.21,
       "ema50": 357.16,
-      "ema200": 374.67,
+      "ema200": 375.0,
       "volume_ratio": 1.83,
       "patterns": []
     },
@@ -2119,7 +2117,7 @@
       "risk_reward": 1.33,
       "ema20": 180.04,
       "ema50": 180.57,
-      "ema200": 185.53,
+      "ema200": 185.24,
       "volume_ratio": 0.54,
       "patterns": []
     },
@@ -2144,7 +2142,7 @@
       "risk_reward": 1.33,
       "ema20": 2428.09,
       "ema50": 2346.59,
-      "ema200": 2411.58,
+      "ema200": 2411.29,
       "volume_ratio": 0.68,
       "patterns": []
     },
@@ -2170,7 +2168,7 @@
       "risk_reward": 1.33,
       "ema20": 1752.62,
       "ema50": 1672.38,
-      "ema200": 1540.82,
+      "ema200": 1540.94,
       "volume_ratio": 0.33,
       "patterns": [
         "Inverted Hammer"
@@ -2198,7 +2196,7 @@
       "risk_reward": 1.33,
       "ema20": 4692.8,
       "ema50": 4677.65,
-      "ema200": 4493.75,
+      "ema200": 4496.26,
       "volume_ratio": 0.66,
       "patterns": []
     },
@@ -2223,7 +2221,7 @@
       "risk_reward": 1.33,
       "ema20": 4685.18,
       "ema50": 4728.73,
-      "ema200": 4547.71,
+      "ema200": 4547.14,
       "volume_ratio": 0.73,
       "patterns": []
     },
@@ -2248,8 +2246,8 @@
       "target2": 3410.64,
       "risk_reward": 1.33,
       "ema20": 3012.57,
-      "ema50": 2930.65,
-      "ema200": 3028.36,
+      "ema50": 2930.66,
+      "ema200": 3034.98,
       "volume_ratio": 0.58,
       "patterns": []
     },
@@ -2274,8 +2272,8 @@
       "target2": 4837.14,
       "risk_reward": 1.33,
       "ema20": 4300.88,
-      "ema50": 4182.04,
-      "ema200": 3898.38,
+      "ema50": 4182.05,
+      "ema200": 3900.54,
       "volume_ratio": 0.97,
       "patterns": []
     },
@@ -2300,8 +2298,8 @@
       "target2": 12905.97,
       "risk_reward": 1.33,
       "ema20": 11659.98,
-      "ema50": 11375.65,
-      "ema200": 11412.51,
+      "ema50": 11375.64,
+      "ema200": 11399.5,
       "volume_ratio": 0.59,
       "patterns": []
     },
@@ -2328,7 +2326,7 @@
       "risk_reward": 1.33,
       "ema20": 188.5,
       "ema50": 182.6,
-      "ema200": 172.99,
+      "ema200": 173.17,
       "volume_ratio": 0.77,
       "patterns": [
         "Doji"
@@ -2355,8 +2353,8 @@
       "risk_reward": 1.33,
       "ema20": 423.4,
       "ema50": 426.21,
-      "ema200": 448.27,
-      "volume_ratio": 0.58,
+      "ema200": 449.0,
+      "volume_ratio": 0.59,
       "patterns": []
     },
     {
@@ -2380,7 +2378,7 @@
       "risk_reward": 1.33,
       "ema20": 252.01,
       "ema50": 255.96,
-      "ema200": 353.75,
+      "ema200": 353.03,
       "volume_ratio": 0.62,
       "patterns": []
     },
@@ -2405,7 +2403,7 @@
       "risk_reward": 1.33,
       "ema20": 190.31,
       "ema50": 182.61,
-      "ema200": 191.39,
+      "ema200": 191.29,
       "volume_ratio": 0.24,
       "patterns": []
     },
@@ -2428,8 +2426,8 @@
       "target2": 2079.81,
       "risk_reward": 1.33,
       "ema20": 1892.3,
-      "ema50": 2042.39,
-      "ema200": 2318.9,
+      "ema50": 2042.4,
+      "ema200": 2324.33,
       "volume_ratio": 0.58,
       "patterns": []
     },
@@ -2446,7 +2444,7 @@
       "rsi": 61.2,
       "macd": 1.659,
       "atr": 2.59,
-      "beta": 1.27,
+      "beta": 1.26,
       "entry": 83.3,
       "stop_loss": 79.42,
       "target1": 88.48,
@@ -2454,7 +2452,7 @@
       "risk_reward": 1.34,
       "ema20": 79.48,
       "ema50": 79.68,
-      "ema200": 90.63,
+      "ema200": 90.78,
       "volume_ratio": 0.91,
       "patterns": []
     },
@@ -2480,7 +2478,7 @@
       "risk_reward": 1.33,
       "ema20": 345.2,
       "ema50": 331.74,
-      "ema200": 300.92,
+      "ema200": 301.92,
       "volume_ratio": 0.49,
       "patterns": []
     },
@@ -2505,7 +2503,7 @@
       "risk_reward": 1.33,
       "ema20": 220.99,
       "ema50": 223.23,
-      "ema200": 242.79,
+      "ema200": 242.9,
       "volume_ratio": 0.53,
       "patterns": []
     },
@@ -2530,8 +2528,8 @@
       "target2": 2256.82,
       "risk_reward": 1.33,
       "ema20": 2033.48,
-      "ema50": 2036.93,
-      "ema200": 2067.41,
+      "ema50": 2036.92,
+      "ema200": 2064.36,
       "volume_ratio": 0.52,
       "patterns": []
     },
@@ -2557,7 +2555,7 @@
       "risk_reward": 1.33,
       "ema20": 2944.07,
       "ema50": 3048.85,
-      "ema200": 3158.99,
+      "ema200": 3158.82,
       "volume_ratio": 3.08,
       "patterns": [
         "Three White Soldiers"
@@ -2577,7 +2575,7 @@
       "rsi": 64.1,
       "macd": 7.235,
       "atr": 10.01,
-      "beta": 1.02,
+      "beta": 1.03,
       "entry": 355.25,
       "stop_loss": 340.24,
       "target1": 375.27,
@@ -2585,7 +2583,7 @@
       "risk_reward": 1.33,
       "ema20": 337.08,
       "ema50": 336.99,
-      "ema200": 338.05,
+      "ema200": 338.15,
       "volume_ratio": 0.55,
       "patterns": []
     },
@@ -2611,7 +2609,7 @@
       "risk_reward": 1.33,
       "ema20": 422.26,
       "ema50": 425.07,
-      "ema200": 415.66,
+      "ema200": 415.82,
       "volume_ratio": 0.91,
       "patterns": []
     },
@@ -2654,7 +2652,7 @@
       "rsi": 58.1,
       "macd": 109.655,
       "atr": 165.7,
-      "beta": 0.75,
+      "beta": 0.76,
       "entry": 6003.0,
       "stop_loss": 5754.46,
       "target1": 6334.39,
@@ -2662,7 +2660,7 @@
       "risk_reward": 1.33,
       "ema20": 5924.1,
       "ema50": 5736.87,
-      "ema200": 5522.3,
+      "ema200": 5520.59,
       "volume_ratio": 0.45,
       "patterns": [
         "Doji"
@@ -2690,7 +2688,7 @@
       "risk_reward": 1.33,
       "ema20": 1999.49,
       "ema50": 1915.25,
-      "ema200": 1705.53,
+      "ema200": 1704.76,
       "volume_ratio": 0.64,
       "patterns": [
         "Doji"
@@ -2716,7 +2714,7 @@
       "risk_reward": 1.33,
       "ema20": 1996.95,
       "ema50": 2046.19,
-      "ema200": 2160.77,
+      "ema200": 2160.7,
       "volume_ratio": 0.44,
       "patterns": []
     },
@@ -2743,7 +2741,7 @@
       "risk_reward": 1.33,
       "ema20": 1727.02,
       "ema50": 1681.02,
-      "ema200": 1520.21,
+      "ema200": 1522.49,
       "volume_ratio": 0.91,
       "patterns": [
         "Bullish Engulfing"
@@ -2763,7 +2761,7 @@
       "rsi": 54.1,
       "macd": 0.704,
       "atr": 9.57,
-      "beta": 0.67,
+      "beta": 0.66,
       "entry": 364.05,
       "stop_loss": 349.7,
       "target1": 383.19,
@@ -2771,7 +2769,7 @@
       "risk_reward": 1.33,
       "ema20": 357.26,
       "ema50": 367.7,
-      "ema200": 389.91,
+      "ema200": 390.25,
       "volume_ratio": 0.61,
       "patterns": []
     },
@@ -2797,8 +2795,8 @@
       "risk_reward": 1.33,
       "ema20": 5208.22,
       "ema50": 5235.55,
-      "ema200": 5391.92,
-      "volume_ratio": 2.43,
+      "ema200": 5391.71,
+      "volume_ratio": 2.44,
       "patterns": []
     },
     {
@@ -2814,7 +2812,7 @@
       "rsi": 41.3,
       "macd": -36.191,
       "atr": 107.86,
-      "beta": 0.43,
+      "beta": 0.44,
       "entry": 3284.0,
       "stop_loss": 3122.21,
       "target1": 3499.72,
@@ -2822,7 +2820,7 @@
       "risk_reward": 1.33,
       "ema20": 3356.35,
       "ema50": 3402.64,
-      "ema200": 3203.09,
+      "ema200": 3199.26,
       "volume_ratio": 1.08,
       "patterns": []
     },
@@ -2848,7 +2846,7 @@
       "risk_reward": 1.33,
       "ema20": 26211.64,
       "ema50": 26245.27,
-      "ema200": 26584.74,
+      "ema200": 26584.09,
       "volume_ratio": 0.46,
       "patterns": []
     },
@@ -2874,7 +2872,7 @@
       "risk_reward": 1.33,
       "ema20": 2592.54,
       "ema50": 2630.29,
-      "ema200": 2550.36,
+      "ema200": 2550.26,
       "volume_ratio": 0.73,
       "patterns": []
     },
@@ -2891,15 +2889,15 @@
       "rsi": 42.2,
       "macd": -1.558,
       "atr": 66.82,
-      "beta": -0.02,
+      "beta": -0.03,
       "entry": 1884.0,
       "stop_loss": 1783.77,
       "target1": 2017.64,
       "target2": 2084.47,
       "risk_reward": 1.33,
       "ema20": 1929.89,
-      "ema50": 1915.2,
-      "ema200": 1731.07,
+      "ema50": 1915.21,
+      "ema200": 1744.92,
       "volume_ratio": 0.81,
       "patterns": []
     },
@@ -2925,7 +2923,7 @@
       "risk_reward": 1.33,
       "ema20": 2266.41,
       "ema50": 2099.94,
-      "ema200": 1642.9,
+      "ema200": 1645.02,
       "volume_ratio": 0.88,
       "patterns": []
     },
@@ -2951,7 +2949,7 @@
       "risk_reward": 1.33,
       "ema20": 410.38,
       "ema50": 398.41,
-      "ema200": 442.48,
+      "ema200": 441.64,
       "volume_ratio": 0.25,
       "patterns": []
     },
@@ -2975,7 +2973,7 @@
       "risk_reward": 1.33,
       "ema20": 771.0,
       "ema50": 805.1,
-      "ema200": 879.28,
+      "ema200": 878.53,
       "volume_ratio": 1.14,
       "patterns": []
     },
@@ -3003,7 +3001,7 @@
       "risk_reward": 1.33,
       "ema20": 558.95,
       "ema50": 557.23,
-      "ema200": 535.27,
+      "ema200": 535.63,
       "volume_ratio": 0.83,
       "patterns": [
         "Doji"
@@ -3031,7 +3029,7 @@
       "risk_reward": 1.33,
       "ema20": 1948.37,
       "ema50": 1914.2,
-      "ema200": 1737.1,
+      "ema200": 1737.72,
       "volume_ratio": 0.46,
       "patterns": []
     },
@@ -3058,7 +3056,7 @@
       "risk_reward": 1.33,
       "ema20": 830.16,
       "ema50": 782.9,
-      "ema200": 725.3,
+      "ema200": 725.68,
       "volume_ratio": 0.78,
       "patterns": [
         "Morning Star"
@@ -3086,8 +3084,8 @@
       "target2": 479.9,
       "risk_reward": 1.33,
       "ema20": 434.49,
-      "ema50": 443.65,
-      "ema200": 469.95,
+      "ema50": 443.66,
+      "ema200": 472.44,
       "volume_ratio": 1.39,
       "patterns": [
         "Doji"
@@ -3115,7 +3113,7 @@
       "risk_reward": 1.33,
       "ema20": 125.3,
       "ema50": 126.77,
-      "ema200": 125.94,
+      "ema200": 126.28,
       "volume_ratio": 0.23,
       "patterns": []
     },
@@ -3141,7 +3139,7 @@
       "risk_reward": 1.33,
       "ema20": 621.83,
       "ema50": 592.09,
-      "ema200": 542.1,
+      "ema200": 540.75,
       "volume_ratio": 0.15,
       "patterns": []
     },
@@ -3159,7 +3157,7 @@
       "rsi": 55.8,
       "macd": 0.987,
       "atr": 8.58,
-      "beta": 1.26,
+      "beta": 1.25,
       "entry": 212.75,
       "stop_loss": 199.88,
       "target1": 229.92,
@@ -3167,7 +3165,7 @@
       "risk_reward": 1.33,
       "ema20": 206.41,
       "ema50": 208.53,
-      "ema200": 207.89,
+      "ema200": 208.09,
       "volume_ratio": 0.48,
       "patterns": []
     },
@@ -3191,7 +3189,7 @@
       "risk_reward": 1.33,
       "ema20": 1199.33,
       "ema50": 1215.93,
-      "ema200": 1190.8,
+      "ema200": 1189.54,
       "volume_ratio": 0.53,
       "patterns": []
     },
@@ -3210,7 +3208,7 @@
       "rsi": 53.7,
       "macd": -56.775,
       "atr": 54.23,
-      "beta": 1.07,
+      "beta": 1.06,
       "entry": 1105.0,
       "stop_loss": 1023.66,
       "target1": 1213.45,
@@ -3218,7 +3216,7 @@
       "risk_reward": 1.33,
       "ema20": 1034.17,
       "ema50": 1203.94,
-      "ema200": 1490.43,
+      "ema200": 1497.42,
       "volume_ratio": 2.78,
       "patterns": [
         "Three White Soldiers"
@@ -3247,7 +3245,7 @@
       "risk_reward": 1.33,
       "ema20": 1753.61,
       "ema50": 1686.39,
-      "ema200": 1447.87,
+      "ema200": 1450.05,
       "volume_ratio": 1.42,
       "patterns": []
     },
@@ -3273,7 +3271,7 @@
       "risk_reward": 1.33,
       "ema20": 349.23,
       "ema50": 340.33,
-      "ema200": 307.69,
+      "ema200": 308.69,
       "volume_ratio": 0.83,
       "patterns": []
     },
@@ -3298,7 +3296,7 @@
       "risk_reward": 1.33,
       "ema20": 416.63,
       "ema50": 421.4,
-      "ema200": 438.38,
+      "ema200": 438.9,
       "volume_ratio": 0.45,
       "patterns": []
     },
@@ -3322,8 +3320,8 @@
       "target2": 1158.63,
       "risk_reward": 1.33,
       "ema20": 1061.34,
-      "ema50": 1113.32,
-      "ema200": 1254.81,
+      "ema50": 1113.33,
+      "ema200": 1260.82,
       "volume_ratio": 1.53,
       "patterns": []
     },
@@ -3350,7 +3348,7 @@
       "risk_reward": 1.33,
       "ema20": 419.07,
       "ema50": 418.65,
-      "ema200": 379.15,
+      "ema200": 379.49,
       "volume_ratio": 0.68,
       "patterns": [
         "Bullish Engulfing"
@@ -3378,7 +3376,7 @@
       "risk_reward": 1.33,
       "ema20": 2016.42,
       "ema50": 1979.64,
-      "ema200": 1878.84,
+      "ema200": 1880.82,
       "volume_ratio": 0.42,
       "patterns": []
     },
@@ -3402,14 +3400,14 @@
       "target2": 2438.5,
       "risk_reward": 1.33,
       "ema20": 2115.6,
-      "ema50": 2203.07,
-      "ema200": 2444.97,
+      "ema50": 2203.08,
+      "ema200": 2456.6,
       "volume_ratio": 0.36,
       "patterns": []
     },
     {
       "ticker": "COCHINSHIP",
-      "price": 1178.0,
+      "price": 1175.0,
       "signal": "WATCH",
       "confidence": "Low",
       "score": 1,
@@ -3417,17 +3415,17 @@
         "RSI healthy (43.6)"
       ],
       "rsi": 43.6,
-      "macd": -20.265,
-      "atr": 45.61,
+      "macd": -20.213,
+      "atr": 45.49,
       "beta": 1.29,
-      "entry": 1178.0,
-      "stop_loss": 1109.59,
-      "target1": 1269.22,
-      "target2": 1314.83,
+      "entry": 1175.0,
+      "stop_loss": 1106.76,
+      "target1": 1265.99,
+      "target2": 1311.48,
       "risk_reward": 1.33,
-      "ema20": 1210.87,
-      "ema50": 1275.08,
-      "ema200": 1425.65,
+      "ema20": 1207.78,
+      "ema50": 1271.83,
+      "ema200": 1423.22,
       "volume_ratio": 1.13,
       "patterns": []
     },
@@ -3452,7 +3450,7 @@
       "risk_reward": 1.33,
       "ema20": 1552.52,
       "ema50": 1578.48,
-      "ema200": 1625.54,
+      "ema200": 1626.22,
       "volume_ratio": 0.25,
       "patterns": []
     },
@@ -3478,7 +3476,7 @@
       "risk_reward": 1.33,
       "ema20": 719.68,
       "ema50": 754.99,
-      "ema200": 792.02,
+      "ema200": 791.49,
       "volume_ratio": 1.28,
       "patterns": [
         "Bullish Engulfing"
@@ -3505,7 +3503,7 @@
       "risk_reward": 1.33,
       "ema20": 1967.21,
       "ema50": 2157.46,
-      "ema200": 2627.32,
+      "ema200": 2624.79,
       "volume_ratio": 0.52,
       "patterns": []
     },
@@ -3524,7 +3522,7 @@
       "rsi": 54.2,
       "macd": 3.655,
       "atr": 59.85,
-      "beta": 0.97,
+      "beta": 0.98,
       "entry": 2475.0,
       "stop_loss": 2385.23,
       "target1": 2594.7,
@@ -3532,7 +3530,7 @@
       "risk_reward": 1.33,
       "ema20": 2442.49,
       "ema50": 2476.71,
-      "ema200": 2616.43,
+      "ema200": 2609.77,
       "volume_ratio": 0.55,
       "patterns": [
         "Doji"
@@ -3559,7 +3557,7 @@
       "risk_reward": 1.33,
       "ema20": 461.04,
       "ema50": 471.03,
-      "ema200": 461.72,
+      "ema200": 461.89,
       "volume_ratio": 0.56,
       "patterns": []
     },
@@ -3585,7 +3583,7 @@
       "risk_reward": 1.33,
       "ema20": 4545.76,
       "ema50": 4491.05,
-      "ema200": 4112.85,
+      "ema200": 4110.94,
       "volume_ratio": 0.43,
       "patterns": []
     },
@@ -3601,15 +3599,15 @@
       "rsi": 32.9,
       "macd": -213.835,
       "atr": 157.99,
-      "beta": 0.59,
+      "beta": 0.58,
       "entry": 5166.0,
       "stop_loss": 4929.02,
       "target1": 5481.97,
       "target2": 5639.96,
       "risk_reward": 1.33,
       "ema20": 5401.22,
-      "ema50": 5755.99,
-      "ema200": 6159.37,
+      "ema50": 5756.0,
+      "ema200": 6170.44,
       "volume_ratio": 0.31,
       "patterns": []
     },
@@ -3628,15 +3626,15 @@
       "rsi": 54.0,
       "macd": 10.392,
       "atr": 170.67,
-      "beta": 0.83,
+      "beta": 0.82,
       "entry": 5299.5,
       "stop_loss": 5043.49,
       "target1": 5640.84,
       "target2": 5811.51,
       "risk_reward": 1.33,
       "ema20": 5222.06,
-      "ema50": 5196.65,
-      "ema200": 4913.36,
+      "ema50": 5196.66,
+      "ema200": 4932.05,
       "volume_ratio": 0.36,
       "patterns": []
     },
@@ -3656,7 +3654,7 @@
       "rsi": 50.1,
       "macd": -64.007,
       "atr": 85.21,
-      "beta": 1.37,
+      "beta": 1.38,
       "entry": 1915.0,
       "stop_loss": 1787.18,
       "target1": 2085.42,
@@ -3664,7 +3662,7 @@
       "risk_reward": 1.33,
       "ema20": 1879.66,
       "ema50": 1991.49,
-      "ema200": 1828.81,
+      "ema200": 1825.16,
       "volume_ratio": 1.84,
       "patterns": [
         "Three White Soldiers"
@@ -3690,7 +3688,7 @@
       "risk_reward": 1.33,
       "ema20": 146.37,
       "ema50": 157.23,
-      "ema200": 163.94,
+      "ema200": 163.62,
       "volume_ratio": 0.42,
       "patterns": []
     },
@@ -3716,7 +3714,7 @@
       "risk_reward": 1.33,
       "ema20": 159.48,
       "ema50": 157.9,
-      "ema200": 161.05,
+      "ema200": 160.88,
       "volume_ratio": 0.66,
       "patterns": []
     },
@@ -3741,7 +3739,7 @@
       "risk_reward": 1.33,
       "ema20": 2234.27,
       "ema50": 2364.73,
-      "ema200": 2659.05,
+      "ema200": 2663.99,
       "volume_ratio": 0.36,
       "patterns": []
     },
@@ -3765,7 +3763,7 @@
       "risk_reward": 1.33,
       "ema20": 1775.17,
       "ema50": 1850.68,
-      "ema200": 1849.62,
+      "ema200": 1849.18,
       "volume_ratio": 0.9,
       "patterns": []
     },
@@ -3790,7 +3788,7 @@
       "risk_reward": 1.33,
       "ema20": 2453.51,
       "ema50": 2524.88,
-      "ema200": 2599.25,
+      "ema200": 2598.82,
       "volume_ratio": 0.98,
       "patterns": []
     },
@@ -3816,7 +3814,7 @@
       "risk_reward": 1.33,
       "ema20": 875.37,
       "ema50": 832.15,
-      "ema200": 698.77,
+      "ema200": 698.5,
       "volume_ratio": 0.44,
       "patterns": []
     },
@@ -3844,7 +3842,7 @@
       "risk_reward": 1.33,
       "ema20": 1228.34,
       "ema50": 1191.53,
-      "ema200": 1183.07,
+      "ema200": 1182.79,
       "volume_ratio": 1.63,
       "patterns": [
         "Three White Soldiers"
@@ -3871,7 +3869,7 @@
       "risk_reward": 1.33,
       "ema20": 3593.98,
       "ema50": 3731.35,
-      "ema200": 3929.35,
+      "ema200": 3931.94,
       "volume_ratio": 0.76,
       "patterns": [
         "Bullish Engulfing"
@@ -3899,7 +3897,7 @@
       "risk_reward": 1.33,
       "ema20": 1443.03,
       "ema50": 1467.82,
-      "ema200": 1585.71,
+      "ema200": 1586.83,
       "volume_ratio": 0.35,
       "patterns": [
         "Doji"
@@ -3927,7 +3925,7 @@
       "risk_reward": 1.33,
       "ema20": 3048.03,
       "ema50": 3326.22,
-      "ema200": 3644.72,
+      "ema200": 3643.77,
       "volume_ratio": 1.33,
       "patterns": []
     },
@@ -3951,7 +3949,7 @@
       "risk_reward": 1.33,
       "ema20": 1793.91,
       "ema50": 1949.15,
-      "ema200": 1840.37,
+      "ema200": 1842.51,
       "volume_ratio": 0.91,
       "patterns": []
     },
@@ -3977,7 +3975,7 @@
       "risk_reward": 1.33,
       "ema20": 555.24,
       "ema50": 568.91,
-      "ema200": 559.08,
+      "ema200": 560.33,
       "volume_ratio": 0.63,
       "patterns": [
         "Three White Soldiers"
@@ -4005,8 +4003,8 @@
       "target2": 3522.46,
       "risk_reward": 1.33,
       "ema20": 3418.75,
-      "ema50": 3709.76,
-      "ema200": 3993.51,
+      "ema50": 3709.77,
+      "ema200": 3997.94,
       "volume_ratio": 1.88,
       "patterns": [
         "Hammer"
@@ -4032,8 +4030,8 @@
       "target2": 5640.92,
       "risk_reward": 1.33,
       "ema20": 5264.73,
-      "ema50": 5448.61,
-      "ema200": 5639.38,
+      "ema50": 5448.62,
+      "ema200": 5649.48,
       "volume_ratio": 1.26,
       "patterns": [
         "Hammer"
@@ -4061,7 +4059,7 @@
       "risk_reward": 1.33,
       "ema20": 2176.41,
       "ema50": 2140.73,
-      "ema200": 2011.41,
+      "ema200": 2012.46,
       "volume_ratio": 0.81,
       "patterns": []
     },
@@ -4087,7 +4085,7 @@
       "risk_reward": 1.33,
       "ema20": 256.24,
       "ema50": 266.02,
-      "ema200": 244.8,
+      "ema200": 244.61,
       "volume_ratio": 1.15,
       "patterns": []
     },
@@ -4106,7 +4104,7 @@
       "rsi": 40.9,
       "macd": -93.218,
       "atr": 139.71,
-      "beta": 0.79,
+      "beta": 0.8,
       "entry": 2230.4,
       "stop_loss": 2020.84,
       "target1": 2509.82,
@@ -4114,7 +4112,7 @@
       "risk_reward": 1.33,
       "ema20": 2365.06,
       "ema50": 2382.34,
-      "ema200": 1799.16,
+      "ema200": 1797.35,
       "volume_ratio": 0.97,
       "patterns": [
         "Bullish Engulfing"
@@ -4134,7 +4132,7 @@
       "rsi": 51.5,
       "macd": -23.082,
       "atr": 92.73,
-      "beta": 0.62,
+      "beta": 0.63,
       "entry": 2487.0,
       "stop_loss": 2347.9,
       "target1": 2672.47,
@@ -4142,7 +4140,7 @@
       "risk_reward": 1.33,
       "ema20": 2456.14,
       "ema50": 2507.04,
-      "ema200": 2496.05,
+      "ema200": 2493.66,
       "volume_ratio": 1.42,
       "patterns": []
     },
@@ -4159,7 +4157,7 @@
       "rsi": 36.5,
       "macd": -18.127,
       "atr": 23.7,
-      "beta": 0.72,
+      "beta": 0.73,
       "entry": 540.9,
       "stop_loss": 505.36,
       "target1": 588.29,
@@ -4167,7 +4165,7 @@
       "risk_reward": 1.33,
       "ema20": 572.35,
       "ema50": 601.32,
-      "ema200": 600.02,
+      "ema200": 600.07,
       "volume_ratio": 3.95,
       "patterns": []
     },
@@ -4191,7 +4189,7 @@
       "risk_reward": 1.33,
       "ema20": 1665.31,
       "ema50": 1717.78,
-      "ema200": 1740.3,
+      "ema200": 1742.92,
       "volume_ratio": 0.42,
       "patterns": []
     },
@@ -4214,8 +4212,8 @@
       "target2": 4487.64,
       "risk_reward": 1.33,
       "ema20": 4089.48,
-      "ema50": 4393.86,
-      "ema200": 4685.84,
+      "ema50": 4393.87,
+      "ema200": 4689.02,
       "volume_ratio": 0.5,
       "patterns": []
     },
@@ -4242,7 +4240,7 @@
       "risk_reward": 1.33,
       "ema20": 1226.42,
       "ema50": 1254.96,
-      "ema200": 1105.31,
+      "ema200": 1105.64,
       "volume_ratio": 1.18,
       "patterns": [
         "Inverted Hammer",
@@ -4262,7 +4260,7 @@
       "rsi": 64.7,
       "macd": 18.256,
       "atr": 30.77,
-      "beta": 1.04,
+      "beta": 1.03,
       "entry": 1161.0,
       "stop_loss": 1114.84,
       "target1": 1222.55,
@@ -4270,7 +4268,7 @@
       "risk_reward": 1.33,
       "ema20": 1097.25,
       "ema50": 1107.81,
-      "ema200": 1209.32,
+      "ema200": 1210.53,
       "volume_ratio": 0.96,
       "patterns": []
     },
@@ -4296,7 +4294,7 @@
       "risk_reward": 1.33,
       "ema20": 208.51,
       "ema50": 215.86,
-      "ema200": 241.0,
+      "ema200": 240.65,
       "volume_ratio": 0.47,
       "patterns": []
     },
@@ -4321,7 +4319,7 @@
       "risk_reward": 1.33,
       "ema20": 291.91,
       "ema50": 298.19,
-      "ema200": 313.58,
+      "ema200": 313.3,
       "volume_ratio": 0.31,
       "patterns": []
     },
@@ -4347,7 +4345,7 @@
       "risk_reward": 1.33,
       "ema20": 1069.72,
       "ema50": 1096.23,
-      "ema200": 1230.27,
+      "ema200": 1233.41,
       "volume_ratio": 1.0,
       "patterns": [
         "Bullish Engulfing"
@@ -4376,7 +4374,7 @@
       "risk_reward": 1.33,
       "ema20": 1572.32,
       "ema50": 1562.78,
-      "ema200": 1631.89,
+      "ema200": 1632.01,
       "volume_ratio": 1.48,
       "patterns": [
         "Doji"
@@ -4404,7 +4402,7 @@
       "risk_reward": 1.33,
       "ema20": 826.75,
       "ema50": 820.41,
-      "ema200": 860.1,
+      "ema200": 860.79,
       "volume_ratio": 0.36,
       "patterns": []
     },
@@ -4422,7 +4420,7 @@
       "rsi": 62.9,
       "macd": 6.547,
       "atr": 7.72,
-      "beta": 0.97,
+      "beta": 0.98,
       "entry": 198.95,
       "stop_loss": 187.38,
       "target1": 214.38,
@@ -4430,7 +4428,7 @@
       "risk_reward": 1.33,
       "ema20": 189.77,
       "ema50": 182.57,
-      "ema200": 181.19,
+      "ema200": 180.37,
       "volume_ratio": 0.07,
       "patterns": []
     },
@@ -4454,8 +4452,8 @@
       "target2": 14015.87,
       "risk_reward": 1.33,
       "ema20": 12401.56,
-      "ema50": 12694.78,
-      "ema200": 12842.04,
+      "ema50": 12694.8,
+      "ema200": 12869.11,
       "volume_ratio": 0.5,
       "patterns": []
     },
@@ -4473,15 +4471,15 @@
       "rsi": 57.8,
       "macd": -73.024,
       "atr": 285.18,
-      "beta": 1.26,
+      "beta": 1.25,
       "entry": 6772.0,
       "stop_loss": 6344.23,
       "target1": 7342.35,
       "target2": 7627.53,
       "risk_reward": 1.33,
       "ema20": 6384.36,
-      "ema50": 6642.3,
-      "ema200": 7075.25,
+      "ema50": 6642.32,
+      "ema200": 7102.5,
       "volume_ratio": 8.29,
       "patterns": [
         "Bullish Engulfing",
@@ -4511,7 +4509,7 @@
       "risk_reward": 1.33,
       "ema20": 583.66,
       "ema50": 566.53,
-      "ema200": 509.97,
+      "ema200": 509.69,
       "volume_ratio": 1.7,
       "patterns": []
     },
@@ -4536,8 +4534,8 @@
       "target2": 35065.96,
       "risk_reward": 1.33,
       "ema20": 34890.63,
-      "ema50": 35753.98,
-      "ema200": 36703.27,
+      "ema50": 35753.97,
+      "ema200": 36693.35,
       "volume_ratio": 6.13,
       "patterns": []
     },
@@ -4562,7 +4560,7 @@
       "risk_reward": 1.33,
       "ema20": 291.21,
       "ema50": 304.43,
-      "ema200": 339.32,
+      "ema200": 339.18,
       "volume_ratio": 0.81,
       "patterns": []
     },
@@ -4588,7 +4586,7 @@
       "risk_reward": 1.33,
       "ema20": 638.77,
       "ema50": 642.59,
-      "ema200": 704.21,
+      "ema200": 701.63,
       "volume_ratio": 0.47,
       "patterns": []
     },
@@ -4613,7 +4611,7 @@
       "risk_reward": 1.33,
       "ema20": 843.4,
       "ema50": 874.2,
-      "ema200": 965.81,
+      "ema200": 964.65,
       "volume_ratio": 0.48,
       "patterns": [
         "Doji"
@@ -4639,7 +4637,7 @@
       "risk_reward": 1.33,
       "ema20": 41.01,
       "ema50": 44.94,
-      "ema200": 56.64,
+      "ema200": 56.53,
       "volume_ratio": 0.61,
       "patterns": []
     },
@@ -4665,7 +4663,7 @@
       "risk_reward": 1.33,
       "ema20": 492.58,
       "ema50": 499.74,
-      "ema200": 488.32,
+      "ema200": 488.25,
       "volume_ratio": 1.34,
       "patterns": []
     },
@@ -4690,7 +4688,7 @@
       "risk_reward": 1.33,
       "ema20": 1114.08,
       "ema50": 1036.35,
-      "ema200": 744.86,
+      "ema200": 743.39,
       "volume_ratio": 0.64,
       "patterns": []
     },
@@ -4716,7 +4714,7 @@
       "risk_reward": 1.33,
       "ema20": 504.88,
       "ema50": 515.98,
-      "ema200": 474.62,
+      "ema200": 473.85,
       "volume_ratio": 0.88,
       "patterns": []
     },
@@ -4742,7 +4740,7 @@
       "risk_reward": 1.33,
       "ema20": 1119.05,
       "ema50": 1113.14,
-      "ema200": 1083.95,
+      "ema200": 1084.18,
       "volume_ratio": 0.86,
       "patterns": []
     },
@@ -4768,7 +4766,7 @@
       "risk_reward": 1.33,
       "ema20": 1715.32,
       "ema50": 1726.87,
-      "ema200": 1835.73,
+      "ema200": 1833.91,
       "volume_ratio": 1.01,
       "patterns": []
     },
@@ -4794,7 +4792,7 @@
       "risk_reward": 1.33,
       "ema20": 1546.65,
       "ema50": 1520.43,
-      "ema200": 1528.09,
+      "ema200": 1527.93,
       "volume_ratio": 1.12,
       "patterns": []
     },
@@ -4820,7 +4818,7 @@
       "risk_reward": 1.33,
       "ema20": 1719.03,
       "ema50": 1734.49,
-      "ema200": 1724.77,
+      "ema200": 1724.85,
       "volume_ratio": 0.72,
       "patterns": []
     },
@@ -4844,7 +4842,7 @@
       "risk_reward": 1.33,
       "ema20": 553.78,
       "ema50": 569.75,
-      "ema200": 583.11,
+      "ema200": 582.78,
       "volume_ratio": 0.94,
       "patterns": []
     },
@@ -4869,7 +4867,7 @@
       "risk_reward": 1.33,
       "ema20": 1219.29,
       "ema50": 1227.78,
-      "ema200": 1331.19,
+      "ema200": 1333.22,
       "volume_ratio": 0.34,
       "patterns": []
     },
@@ -4895,7 +4893,7 @@
       "risk_reward": 1.33,
       "ema20": 2059.05,
       "ema50": 1980.74,
-      "ema200": 1876.59,
+      "ema200": 1879.23,
       "volume_ratio": 0.99,
       "patterns": []
     },
@@ -4912,7 +4910,7 @@
       "rsi": 70.3,
       "macd": 7.196,
       "atr": 10.3,
-      "beta": 1.7,
+      "beta": 1.71,
       "entry": 310.7,
       "stop_loss": 295.26,
       "target1": 331.29,
@@ -4920,7 +4918,7 @@
       "risk_reward": 1.33,
       "ema20": 290.92,
       "ema50": 288.41,
-      "ema200": 320.25,
+      "ema200": 319.1,
       "volume_ratio": 0.15,
       "patterns": []
     },
@@ -4947,7 +4945,7 @@
       "risk_reward": 1.33,
       "ema20": 344.63,
       "ema50": 340.25,
-      "ema200": 315.73,
+      "ema200": 316.01,
       "volume_ratio": 0.42,
       "patterns": [
         "Hammer"
@@ -4974,7 +4972,7 @@
       "risk_reward": 1.33,
       "ema20": 77.24,
       "ema50": 78.87,
-      "ema200": 78.62,
+      "ema200": 78.71,
       "volume_ratio": 0.54,
       "patterns": []
     },
@@ -4991,7 +4989,7 @@
       "rsi": 55.4,
       "macd": -1.649,
       "atr": 11.59,
-      "beta": 1.05,
+      "beta": 1.06,
       "entry": 385.75,
       "stop_loss": 368.37,
       "target1": 408.92,
@@ -4999,7 +4997,7 @@
       "risk_reward": 1.33,
       "ema20": 375.18,
       "ema50": 381.0,
-      "ema200": 360.83,
+      "ema200": 360.93,
       "volume_ratio": 0.61,
       "patterns": []
     },
@@ -5025,7 +5023,7 @@
       "risk_reward": 1.33,
       "ema20": 164.67,
       "ema50": 167.59,
-      "ema200": 172.21,
+      "ema200": 172.26,
       "volume_ratio": 0.8,
       "patterns": []
     },
@@ -5042,7 +5040,7 @@
       "rsi": 54.1,
       "macd": -10.069,
       "atr": 30.51,
-      "beta": 1.21,
+      "beta": 1.2,
       "entry": 967.0,
       "stop_loss": 921.24,
       "target1": 1028.01,
@@ -5050,7 +5048,7 @@
       "risk_reward": 1.33,
       "ema20": 939.6,
       "ema50": 972.97,
-      "ema200": 990.18,
+      "ema200": 992.39,
       "volume_ratio": 0.65,
       "patterns": []
     },
@@ -5076,7 +5074,7 @@
       "risk_reward": 1.33,
       "ema20": 223.28,
       "ema50": 222.63,
-      "ema200": 212.24,
+      "ema200": 213.37,
       "volume_ratio": 0.56,
       "patterns": []
     },
@@ -5104,7 +5102,7 @@
       "risk_reward": 1.33,
       "ema20": 139.92,
       "ema50": 138.26,
-      "ema200": 140.81,
+      "ema200": 141.03,
       "volume_ratio": 1.78,
       "patterns": [
         "Three White Soldiers"
@@ -5124,7 +5122,7 @@
       "rsi": 69.8,
       "macd": 2.329,
       "atr": 2.73,
-      "beta": 1.37,
+      "beta": 1.36,
       "entry": 91.7,
       "stop_loss": 87.61,
       "target1": 97.15,
@@ -5132,7 +5130,7 @@
       "risk_reward": 1.33,
       "ema20": 84.33,
       "ema50": 82.71,
-      "ema200": 77.0,
+      "ema200": 77.24,
       "volume_ratio": 0.92,
       "patterns": []
     },
@@ -5151,7 +5149,7 @@
       "rsi": 58.7,
       "macd": 0.056,
       "atr": 0.93,
-      "beta": 1.04,
+      "beta": 1.03,
       "entry": 31.63,
       "stop_loss": 30.24,
       "target1": 33.48,
@@ -5159,7 +5157,7 @@
       "risk_reward": 1.33,
       "ema20": 30.58,
       "ema50": 31.16,
-      "ema200": 33.39,
+      "ema200": 33.51,
       "volume_ratio": 1.74,
       "patterns": [
         "Doji"
@@ -5187,7 +5185,7 @@
       "risk_reward": 1.33,
       "ema20": 30.61,
       "ema50": 30.6,
-      "ema200": 32.44,
+      "ema200": 32.55,
       "volume_ratio": 1.11,
       "patterns": [
         "Doji"
@@ -5214,7 +5212,7 @@
       "risk_reward": 1.33,
       "ema20": 23.58,
       "ema50": 23.78,
-      "ema200": 25.62,
+      "ema200": 25.66,
       "volume_ratio": 0.83,
       "patterns": []
     },
@@ -5239,7 +5237,7 @@
       "risk_reward": 1.33,
       "ema20": 20.48,
       "ema50": 21.11,
-      "ema200": 23.52,
+      "ema200": 23.59,
       "volume_ratio": 0.83,
       "patterns": []
     },
@@ -5267,7 +5265,7 @@
       "risk_reward": 1.33,
       "ema20": 536.02,
       "ema50": 531.73,
-      "ema200": 531.03,
+      "ema200": 531.29,
       "volume_ratio": 1.54,
       "patterns": [
         "Three White Soldiers"
@@ -5286,7 +5284,7 @@
       "rsi": 62.2,
       "macd": 8.153,
       "atr": 21.51,
-      "beta": 0.83,
+      "beta": 0.82,
       "entry": 781.45,
       "stop_loss": 749.18,
       "target1": 824.47,
@@ -5294,7 +5292,7 @@
       "risk_reward": 1.33,
       "ema20": 749.06,
       "ema50": 757.46,
-      "ema200": 811.27,
+      "ema200": 813.59,
       "volume_ratio": 0.7,
       "patterns": []
     },
@@ -5310,7 +5308,7 @@
       "rsi": 42.2,
       "macd": -24.816,
       "atr": 39.2,
-      "beta": 0.83,
+      "beta": 0.84,
       "entry": 1123.5,
       "stop_loss": 1064.69,
       "target1": 1201.91,
@@ -5318,7 +5316,7 @@
       "risk_reward": 1.33,
       "ema20": 1143.33,
       "ema50": 1201.87,
-      "ema200": 1339.38,
+      "ema200": 1335.44,
       "volume_ratio": 0.33,
       "patterns": []
     },
@@ -5334,15 +5332,15 @@
       "rsi": 56.4,
       "macd": -3.377,
       "atr": 38.56,
-      "beta": 1.16,
+      "beta": 1.15,
       "entry": 1109.6,
       "stop_loss": 1051.75,
       "target1": 1186.73,
       "target2": 1225.29,
       "risk_reward": 1.33,
       "ema20": 1080.15,
-      "ema50": 1105.34,
-      "ema200": 1131.24,
+      "ema50": 1105.35,
+      "ema200": 1136.5,
       "volume_ratio": 0.44,
       "patterns": []
     },
@@ -5368,7 +5366,7 @@
       "risk_reward": 1.33,
       "ema20": 1112.42,
       "ema50": 1118.59,
-      "ema200": 1047.15,
+      "ema200": 1047.58,
       "volume_ratio": 0.29,
       "patterns": []
     },
@@ -5393,8 +5391,8 @@
       "target2": 345.11,
       "risk_reward": 1.33,
       "ema20": 311.79,
-      "ema50": 316.84,
-      "ema200": 312.61,
+      "ema50": 316.85,
+      "ema200": 313.35,
       "volume_ratio": 5.52,
       "patterns": []
     },
@@ -5419,7 +5417,7 @@
       "risk_reward": 1.33,
       "ema20": 4188.61,
       "ema50": 4282.81,
-      "ema200": 4529.13,
+      "ema200": 4531.1,
       "volume_ratio": 0.58,
       "patterns": []
     },
@@ -5444,7 +5442,7 @@
       "risk_reward": 1.33,
       "ema20": 286.21,
       "ema50": 309.06,
-      "ema200": 326.18,
+      "ema200": 326.55,
       "volume_ratio": 1.27,
       "patterns": []
     },
@@ -5461,7 +5459,7 @@
       "rsi": 53.1,
       "macd": -0.025,
       "atr": 17.54,
-      "beta": 1.26,
+      "beta": 1.25,
       "entry": 578.3,
       "stop_loss": 551.98,
       "target1": 613.39,
@@ -5469,7 +5467,7 @@
       "risk_reward": 1.33,
       "ema20": 568.16,
       "ema50": 584.05,
-      "ema200": 655.4,
+      "ema200": 656.39,
       "volume_ratio": 0.87,
       "patterns": []
     },
@@ -5493,7 +5491,7 @@
       "risk_reward": 1.33,
       "ema20": 1112.03,
       "ema50": 1211.17,
-      "ema200": 1320.37,
+      "ema200": 1320.38,
       "volume_ratio": 0.21,
       "patterns": []
     },
@@ -5510,7 +5508,7 @@
       "rsi": 51.3,
       "macd": -0.782,
       "atr": 2.27,
-      "beta": 1.49,
+      "beta": 1.48,
       "entry": 60.6,
       "stop_loss": 57.19,
       "target1": 65.15,
@@ -5518,7 +5516,7 @@
       "risk_reward": 1.33,
       "ema20": 59.61,
       "ema50": 61.67,
-      "ema200": 60.87,
+      "ema200": 61.03,
       "volume_ratio": 0.38,
       "patterns": []
     },
@@ -5534,7 +5532,7 @@
       "rsi": 39.0,
       "macd": -3.374,
       "atr": 3.14,
-      "beta": 1.04,
+      "beta": 1.02,
       "entry": 57.37,
       "stop_loss": 52.66,
       "target1": 63.65,
@@ -5542,7 +5540,7 @@
       "risk_reward": 1.33,
       "ema20": 59.66,
       "ema50": 64.84,
-      "ema200": 67.85,
+      "ema200": 68.38,
       "volume_ratio": 0.31,
       "patterns": []
     },
@@ -5569,7 +5567,7 @@
       "risk_reward": 1.33,
       "ema20": 456.57,
       "ema50": 463.11,
-      "ema200": 520.12,
+      "ema200": 520.39,
       "volume_ratio": 1.53,
       "patterns": []
     },
@@ -5596,8 +5594,8 @@
       "risk_reward": 1.33,
       "ema20": 194.81,
       "ema50": 200.16,
-      "ema200": 239.45,
-      "volume_ratio": 1.35,
+      "ema200": 240.52,
+      "volume_ratio": 1.36,
       "patterns": []
     },
     {
@@ -5621,7 +5619,7 @@
       "risk_reward": 1.33,
       "ema20": 435.82,
       "ema50": 449.71,
-      "ema200": 476.3,
+      "ema200": 475.82,
       "volume_ratio": 0.52,
       "patterns": []
     },
@@ -5649,7 +5647,7 @@
       "risk_reward": 1.33,
       "ema20": 1489.9,
       "ema50": 1469.21,
-      "ema200": 1375.07,
+      "ema200": 1374.86,
       "volume_ratio": 1.83,
       "patterns": [
         "Three White Soldiers"
@@ -5657,7 +5655,7 @@
     },
     {
       "ticker": "SCI",
-      "price": 270.58,
+      "price": 266.58,
       "signal": "STRONG BUY",
       "confidence": "High",
       "score": 5,
@@ -5668,17 +5666,17 @@
         "Pattern: Three White Soldiers"
       ],
       "rsi": 53.7,
-      "macd": -1.869,
-      "atr": 10.68,
+      "macd": -1.841,
+      "atr": 10.52,
       "beta": 1.23,
-      "entry": 270.58,
-      "stop_loss": 254.56,
-      "target1": 291.94,
-      "target2": 302.62,
+      "entry": 266.58,
+      "stop_loss": 250.8,
+      "target1": 287.62,
+      "target2": 298.14,
       "risk_reward": 1.33,
-      "ema20": 264.1,
-      "ema50": 270.95,
-      "ema200": 273.95,
+      "ema20": 260.2,
+      "ema50": 266.95,
+      "ema200": 269.71,
       "volume_ratio": 1.37,
       "patterns": [
         "Three White Soldiers"
@@ -5731,7 +5729,7 @@
       "risk_reward": 1.33,
       "ema20": 94.62,
       "ema50": 94.96,
-      "ema200": 98.12,
+      "ema200": 98.31,
       "volume_ratio": 0.64,
       "patterns": []
     },
@@ -5756,7 +5754,7 @@
       "risk_reward": 1.33,
       "ema20": 568.15,
       "ema50": 585.66,
-      "ema200": 614.39,
+      "ema200": 614.61,
       "volume_ratio": 0.57,
       "patterns": []
     },
@@ -5781,8 +5779,8 @@
       "target2": 1328.55,
       "risk_reward": 1.33,
       "ema20": 1220.91,
-      "ema50": 1240.79,
-      "ema200": 1326.69,
+      "ema50": 1240.8,
+      "ema200": 1328.06,
       "volume_ratio": 0.44,
       "patterns": []
     },
@@ -5806,7 +5804,7 @@
       "risk_reward": 1.33,
       "ema20": 129.87,
       "ema50": 135.8,
-      "ema200": 150.65,
+      "ema200": 150.94,
       "volume_ratio": 0.62,
       "patterns": []
     },
@@ -5830,7 +5828,7 @@
       "risk_reward": 1.33,
       "ema20": 240.17,
       "ema50": 250.39,
-      "ema200": 270.41,
+      "ema200": 270.1,
       "volume_ratio": 0.56,
       "patterns": []
     },
@@ -5856,7 +5854,7 @@
       "risk_reward": 1.33,
       "ema20": 55.98,
       "ema50": 58.21,
-      "ema200": 66.74,
+      "ema200": 66.84,
       "volume_ratio": 0.38,
       "patterns": []
     },
@@ -5882,7 +5880,7 @@
       "risk_reward": 1.34,
       "ema20": 76.64,
       "ema50": 75.86,
-      "ema200": 76.84,
+      "ema200": 76.82,
       "volume_ratio": 0.46,
       "patterns": [
         "Inverted Hammer"
@@ -5911,7 +5909,7 @@
       "risk_reward": 1.33,
       "ema20": 304.0,
       "ema50": 292.25,
-      "ema200": 278.39,
+      "ema200": 278.73,
       "volume_ratio": 2.57,
       "patterns": []
     },
@@ -5936,7 +5934,7 @@
       "risk_reward": 1.33,
       "ema20": 141.5,
       "ema50": 143.8,
-      "ema200": 157.28,
+      "ema200": 156.99,
       "volume_ratio": 0.39,
       "patterns": []
     },
@@ -5963,7 +5961,7 @@
       "risk_reward": 1.33,
       "ema20": 1090.49,
       "ema50": 1077.64,
-      "ema200": 1091.37,
+      "ema200": 1091.47,
       "volume_ratio": 0.95,
       "patterns": [
         "Piercing Line"
@@ -5990,7 +5988,7 @@
       "risk_reward": 1.33,
       "ema20": 1685.24,
       "ema50": 1741.55,
-      "ema200": 1906.58,
+      "ema200": 1907.63,
       "volume_ratio": 0.36,
       "patterns": []
     },
@@ -6008,7 +6006,7 @@
       "rsi": 53.2,
       "macd": 1.227,
       "atr": 9.12,
-      "beta": 0.88,
+      "beta": 0.89,
       "entry": 380.5,
       "stop_loss": 366.81,
       "target1": 398.75,
@@ -6016,7 +6014,7 @@
       "risk_reward": 1.33,
       "ema20": 375.92,
       "ema50": 380.12,
-      "ema200": 418.43,
+      "ema200": 418.6,
       "volume_ratio": 0.6,
       "patterns": []
     },
@@ -6034,7 +6032,7 @@
       "rsi": 69.4,
       "macd": 29.937,
       "atr": 20.71,
-      "beta": 0.58,
+      "beta": 0.57,
       "entry": 900.0,
       "stop_loss": 868.94,
       "target1": 941.41,
@@ -6042,7 +6040,7 @@
       "risk_reward": 1.33,
       "ema20": 849.83,
       "ema50": 828.55,
-      "ema200": 805.0,
+      "ema200": 808.28,
       "volume_ratio": 0.51,
       "patterns": []
     },
@@ -6068,7 +6066,7 @@
       "risk_reward": 1.33,
       "ema20": 383.63,
       "ema50": 380.24,
-      "ema200": 410.59,
+      "ema200": 410.92,
       "volume_ratio": 0.67,
       "patterns": [
         "Morning Star"
@@ -6088,7 +6086,7 @@
       "rsi": 54.1,
       "macd": 1.166,
       "atr": 37.44,
-      "beta": 0.4,
+      "beta": 0.41,
       "entry": 1216.0,
       "stop_loss": 1159.84,
       "target1": 1290.89,
@@ -6096,7 +6094,7 @@
       "risk_reward": 1.33,
       "ema20": 1199.5,
       "ema50": 1224.0,
-      "ema200": 1372.11,
+      "ema200": 1370.11,
       "volume_ratio": 0.11,
       "patterns": []
     },
@@ -6122,7 +6120,7 @@
       "risk_reward": 1.33,
       "ema20": 4416.12,
       "ema50": 4388.08,
-      "ema200": 3927.52,
+      "ema200": 3935.93,
       "volume_ratio": 0.71,
       "patterns": []
     },
@@ -6141,7 +6139,7 @@
       "rsi": 68.6,
       "macd": 107.189,
       "atr": 127.11,
-      "beta": 0.9,
+      "beta": 0.91,
       "entry": 3720.0,
       "stop_loss": 3529.33,
       "target1": 3974.22,
@@ -6149,7 +6147,7 @@
       "risk_reward": 1.33,
       "ema20": 3394.74,
       "ema50": 3274.58,
-      "ema200": 2902.2,
+      "ema200": 2903.91,
       "volume_ratio": 1.42,
       "patterns": []
     },
@@ -6176,7 +6174,7 @@
       "risk_reward": 1.33,
       "ema20": 1327.66,
       "ema50": 1314.42,
-      "ema200": 1341.5,
+      "ema200": 1341.94,
       "volume_ratio": 1.86,
       "patterns": []
     },
@@ -6202,8 +6200,8 @@
       "risk_reward": 1.33,
       "ema20": 698.19,
       "ema50": 703.68,
-      "ema200": 729.89,
-      "volume_ratio": 1.79,
+      "ema200": 730.23,
+      "volume_ratio": 1.8,
       "patterns": []
     },
     {
@@ -6227,8 +6225,8 @@
       "target2": 1046.51,
       "risk_reward": 1.33,
       "ema20": 896.69,
-      "ema50": 890.97,
-      "ema200": 919.86,
+      "ema50": 890.98,
+      "ema200": 920.33,
       "volume_ratio": 0.57,
       "patterns": []
     },
@@ -6248,7 +6246,7 @@
       "rsi": 73.2,
       "macd": 12.843,
       "atr": 11.51,
-      "beta": 1.61,
+      "beta": 1.6,
       "entry": 349.0,
       "stop_loss": 331.74,
       "target1": 372.02,
@@ -6256,7 +6254,7 @@
       "risk_reward": 1.33,
       "ema20": 314.59,
       "ema50": 304.37,
-      "ema200": 294.27,
+      "ema200": 295.39,
       "volume_ratio": 1.85,
       "patterns": [
         "Morning Star"
@@ -6284,7 +6282,7 @@
       "risk_reward": 1.33,
       "ema20": 600.67,
       "ema50": 595.67,
-      "ema200": 563.7,
+      "ema200": 565.73,
       "volume_ratio": 0.85,
       "patterns": []
     },
@@ -6310,7 +6308,7 @@
       "risk_reward": 1.33,
       "ema20": 1070.82,
       "ema50": 1027.62,
-      "ema200": 943.64,
+      "ema200": 943.11,
       "volume_ratio": 0.94,
       "patterns": []
     },
@@ -6336,7 +6334,7 @@
       "risk_reward": 1.33,
       "ema20": 1803.32,
       "ema50": 1769.02,
-      "ema200": 1640.83,
+      "ema200": 1640.72,
       "volume_ratio": 0.71,
       "patterns": []
     },
@@ -6362,7 +6360,7 @@
       "risk_reward": 1.33,
       "ema20": 1033.95,
       "ema50": 1057.5,
-      "ema200": 1040.34,
+      "ema200": 1038.18,
       "volume_ratio": 0.82,
       "patterns": []
     },
@@ -6387,7 +6385,7 @@
       "risk_reward": 1.33,
       "ema20": 840.6,
       "ema50": 861.83,
-      "ema200": 925.95,
+      "ema200": 925.65,
       "volume_ratio": 0.61,
       "patterns": []
     }
